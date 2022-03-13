@@ -1,0 +1,120 @@
+header, 
+.mainContent, 
+.row {   
+	max-width: 1200px;   
+	padding: 0 5px;   
+	margin: auto; 
+} 
+
+.mainNav {   
+	padding: 8px 0;   
+	height: auto; 
+	display: block;
+} 
+
+
+.rowForAccount{
+	display: inline-block;
+}
+
+
+.mainNav .row ul {   
+	display: flex;   
+	flex-direction: row;   
+	justify-content: space-between; 
+}
+
+.mainNav > div > ul > li {   
+	border: none;   
+	padding: 0; 
+} 
+
+.mainContent {   
+	display: flex; 
+} 
+
+main {   
+	flex-basis: 70%; 
+} 
+
+.sideBar {   
+	background-color: #ddceaa;   
+	flex-basis: 30%; 
+} 
+
+.newsItem{   
+	flex-basis: 33%; 
+}
+
+.strapline {   
+	display: flex; 
+} 
+.straplinetxt, 
+.straplineImg {   
+	padding: 0 5px;   
+	flex-basis: 50%; 
+} 
+.straplineImg > img {   
+	width: 100%; 
+}
+
+.burgerMenu {   
+	display: none; 
+} 
+
+.logo {   
+	 padding: 5px 0px;   
+	 flex-basis: 85%;
+	 position: relative;
+}
+
+.loginLinks {   
+	flex-basis: 15%; 
+} 
+
+.search {   
+	padding: 5px 0;   
+	flex-basis: 40%; 
+}
+
+header {   
+	justify-content: flex-end;   
+	padding: 0 0 0 5px; 
+}
+
+.logo img {   
+	position: absolute;   
+	top: 0;   
+	left: 0; 
+}
+
+
+ .loginLinks > ul {   
+ 	list-style: none;   
+ 	padding-left: 0;   
+ 	display: flex;   
+ 	justify-content: flex-end; 
+ 	} 
+
+ .loginLinks > ul > li {   
+ 	border: 1px solid #000; 
+ } 
+
+ .loginLinks > ul > li:first-child {   
+ 	margin-right: 4px; 
+ } 
+ 	
+ .loginLinks > ul > li > a {   
+ 	padding: 4px 2px;   
+ 	color: #000;   
+ 	text-decoration: none;   
+ 	display: inline-block;   
+ 	width: 100%; 
+ } 
+
+ .form label, input, textarea, select{
+
+	display: flex;
+	width: 100%;
+
+}
